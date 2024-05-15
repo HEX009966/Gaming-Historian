@@ -1,0 +1,71 @@
+#flush-collapseOne, #flush-collapseThree {
+	background-color: #FDD779;
+}
+#flush-collapseTwo {
+	background-color: #63B7B7;
+}
+
+/*cards, their colors and conditions*/
+.cards {
+	display: flex;
+/*	flex-direction: wrap;*/
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-content: flex-start;
+/*	margin: 0 auto;*/
+}
+
+.card-color {
+	background-color: black;
+}
+.world-8 {
+	background-color: orangered;
+}
+
+.card-img-top {
+	background-color: black;
+	transition: 1s;
+}
+.card-img-top:hover {
+	transform: scale(0.9);
+}
+
+/*main image of the page*/
+.img-fluid {
+	display: flex;
+	margin: 0 auto;
+}
+
+h5, p {
+	text-align: center;
+}
+
+.col {
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+
+}
+
+a .btn-dark {
+	background-color: #009966;
+	border-color: #009966;
+}
+a .btn-dark:hover {
+	background-color: darkgreen;
+	border-color: darkgreen;
+}
+
+/*below are the style for bootstrap grid */
+
+.col {
+	background-color: lightblue;
+	border: 2px solid darkcyan;
+}
+
+a .btn-success {
+	display: flex;
+/*	text-decoration: none;*/
+	background-color: darkcyan;
+	margin: 0 auto;
+}

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap Page</title>
+	<link rel="stylesheet" type="text/css" href="bs.style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+</head>
+<body style="background-color: #63B7B7;">
+
+	<!-- Conent - Images -->
+	<img src="https://static.wikia.nocookie.net/mario/images/6/66/Super_Mario_Bros_3_JP_cover.jpg/revision/latest?cb=20240323004351" class="img-fluid" alt="https://i.pinimg.com/originals/3e/e7/69/3ee76949a9e3fbafeacb63e63cd9504b.png"><br><br>
+
+
+	<!-- Components-Accordion -->
+	<div class="accordion accordion-flush" id="accordionFlushExample">
+	  	<div class="accordion-item">
+	    <h2 class="accordion-header">
+	      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+	        Accordion Item #1
+	      </button>
+	    </h2>
+	    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+	      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+	    </div>
+	  </div>
+	  <div class="accordion-item">
+	    <h2 class="accordion-header">
+	      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+	        Accordion Item #2
+	      </button>
+	    </h2>
+	    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+	      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+	    </div>
+	  </div>
+	  <div class="accordion-item">
+	    <h2 class="accordion-header">
+	      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+	        Accordion Item #3
+	      </button>
+	    </h2>
+	    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+	      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+	    </div>
+	  </div>
+	</div><br>
+
+	
+	<!--Components - Cards-->
+	<!--Helpers - Color & Background-->
+    <div class="cards">
+	<!--card for world 1-->
+	<div class="row row-cols-1 row-cols-md-3 g-4">
+  	<div class="col">
+		<div class="card1" style="width: 18rem;">
+		  	<div class="card-color" width="288px" height="200px">
+		  		<img src="https://static.wikia.nocookie.net/siivagunner/images/5/57/Grass_Land_NES.png/revision/latest/thumbnail/width/360/height/450?cb=20201003104914" class="card-img-top" alt="World-1">
+		  	</div>
+		  	<!--this card uses the Color & Background for Cards helper-->
+
+			<div class="card text-bg-success mb-3" style="max-width: 18rem;">
+  				<div class="card-header"><h5 class="card-title">Grass-Land</h5></div>
+  			<div class="card-body">
+				<p class="card-text">Grass Land is where Mario's new adventure starts.  What will he and Luigi encounter on their journey?</p>
+			</div>
+		    	<a href="#" class="btn btn-success">World-1 🌿</a>
+		    </div>
+		</div>
+	</div>
+	<!--card for world 2 -->
+	
+  	<div class="col">
+		<div class="card2" style="width: 18rem;">
+		    <div class="card-color" width="288px" height="200px">
+		    	<img src=".\mario3-world2.jpg" class="card-img-top" width="288px" height="200px" alt="World-2">
+		    </div>
+		  	<!--this card uses the Color & Background for Cards helper-->
+
+		    <div class="card text-bg-warning mb-3" style="max-width: 18rem;">
+		  		<div class="card-header"><h5 class="card-title">Desert-Land</h5>
+		  		</div>
+		    <div class="card-body">
+		    	<p class="card-text">Watch out for the Sun in this world, it may just swoop out of the sky and burn you!</p>
+		    </div>
+		    	<a href="#" class="btn btn-warning">World-2 🌞</a>
+		  	</div>
+		</div>
+	</div>
+	<!--card for world 3-->
+	
+  	<div class="col">
+		<div class="card3" style="width: 18rem;">
+		  	<div class="card-color" width="288px" height="200px">
+		  		<img src="https://static.wikia.nocookie.net/mario/images/f/f4/Water_world_1.png/revision/latest/smart/width/386/height/259?cb=20090426033749" class="card-img-top" alt="World-3">
+		  	</div>
+		  	<!--this card uses the Color & Background for Cards helper-->
+
+			<div class="card text-bg-info mb-3" style="max-width: 18rem;">
+  				<div class="card-header"><h5 class="card-title">Water-Land</h5></div>
+  			<div class="card-body">
+				<p class="card-text">Don't fall off these platforms or you'll make a splash! Or maybe you'll find a cool swimsuit...</p>
+			</div>
+		    	<a href="#" class="btn btn-info">World-3 🐸</a>
+		    </div>
+		</div>
+	</div>
+	<!--card for world 4-->
+	
+  	<div class="col">
+		<div class="card4" style="width: 18rem;">
+			<div class="card-color" width="288" height="200px">
+				<img src=".\mario3-world4.jpg" width="288px" height="200px" class="card-img-top" alt="World-4">
+			</div>
+			<div class="card text-bg-dark" style="max-width: 18rem;">
+				<div class="card-header"><h5 class="card-title">Giant-Land</h5></div>
+				<div class="card-body">
+					<p class="card-text">Everythnig is flipped upside down in this world, get ready for some little, and BIG suprises!</p>
+				</div>
+					<a href="#" class="btn btn-dark">World-4 🍄</a>
+			</div>			
+		</div>
+	</div>
+	<!--card for world-5-->
+
+	<div class="col">
+		<div class="card5" style="width: 18rem;">
+			<div class="card-color" width="288px" height="200px">
+				<img src=".\mario3-SkyLand.jpg" width="288px" height="200px" class="card-img-top" alt="World-5">
+			</div>
+			<div class="card text-bg-light" style="max-width: 18rem;">
+				<div class="card-header"><h5 class="card-title">Sky-Land</h5></div>
+				<div class="card-body">
+					<p class="card-text">It's time for some fresh air, so strap on your wings and get ready to soar into the clouds!</p>
+				</div>
+					<a href="#" class="btn btn-light">World-5 ☁</a>
+			</div>
+		</div>
+	</div>
+	<!--card for world 6-->
+
+	<div class="col">
+		<div class="card6" style="width: 18rem;">
+			<div class="card-color" width="288px" height="200px">
+				<img src=".\mario3-world6 tumbler.gif" class="card-img-top" width="288px" height="200px" alt="World-6">
+			</div>
+			<div class="card text-bg-secondary mb-3" style="max-width: 18rem;">
+				<div class="card-header"><h5 class="card-title">Ice-Land</h5></div>
+				<div class="card-body">
+					<p class="card-text">Don't run too fast or you might slip and slide right off a ledge in this unforgiving landscape...</p>
+				</div>
+					<a href="#" class="btn btn-secondary">World-6 ❄</a>
+			</div>	 
+		</div>
+	</div>
+	<!--card for world 7-->
+
+	<div class="col">
+		<div class="card7" style="width: 18rem;">
+		  	<div class="card-color" width="288px" height="200px">
+		  		<img src="https://pm1.aminoapps.com/7002/8dd0e03935f7033e6e011f928a817a87daae5048r1-800-540v2_hq.jpg" class="card-img-top" width="288px" height="200px" alt="World-7">
+		  	</div>
+		  	<!--this card uses the Color & Background for Cards helper-->
+
+		  	<div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+		  		<div class="card-header"><h5 class="card-title">Pipe-Land</h5></div>
+		  		<div class="card-body">
+		    		<p class="card-text">Watch your toes in this world, it's crawling with baddies, so use some power-ups and take it to um!</p>
+		    	</div>
+		    		<a href="#" class="btn btn-primary">World-7 ⭐</a>
+			</div>
+		</div>
+	</div>
+	<!--card for world-8-->
+
+	<div class="col">
+		<div class="card8" style="width: 18rem;">
+		  	<div class="world-8" width="288px" height="200px">
+		  		<img src=".\mario3-darkland.jpg" class="card-img-top" width="288px" height="200px" alt="World-8">
+		  	</div>
+		  	<!--this card uses the Color & Background for Cards helper-->
+
+		  	<div class="card text-bg-danger mb-3" style="max-width: 18rem;">
+		  		<div class="card-header"><h5 class="card-title">Dark-Land</h5>
+		  		</div>
+		  	<div class="card-body">
+		    	<p class="card-text">This is it, the final showdown... Mario & Luigi face off against King Koopa himself!</p>
+		    </div>
+		    	<a href="#" class="btn btn-danger">World-8 🔥</a>
+		</div>
+
+
+	</div>
+	</div>
+	</div>
+
+	<!-- Components - Dropdowns -->
+
+<!-- 	<div class="dropdown" data-bs-theme="light">
+	  <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButtonDark" data-bs-toggle="dropdown" aria-expanded="false">
+	    Dark dropdown
+	  </button>
+	  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonDark">
+	    <li><a class="dropdown-item active" href="#">Action</a></li>
+	    <li><a class="dropdown-item" href="#">Action</a></li>
+	    <li><a class="dropdown-item" href="#">Another action</a></li>
+	    <li><a class="dropdown-item" href="#">Something else here</a></li>
+	    <li><hr class="dropdown-divider"></li>
+	    <li><a class="dropdown-item" href="#">Separated link</a></li>
+	  </ul>
+	</div> -->
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+	<a href="new.doc.html"><button type="button" class="btn btn-dark">H o m e - B u t t o n</button></a>
+</body>
+</html>
