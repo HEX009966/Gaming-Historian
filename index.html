@@ -1,89 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="style.doc.css">
-	<!-- Google Font / Jersey 10 -->
+	<title>Startup Page</title>
+  <!-- Google Font / Jersey 10 -->
 	<link href="https://fonts.googleapis.com/css2?family=Jacquard+24&family=Jersey+10&display=swap" rel="stylesheet">
-	
-	<title>New Doc</title>
-	<!-- you can also add styles in the head to apply to the doc -->
-	<style>
-		li {
-			font-style: italic;
-			color: ghostwhite;
-		}
-	</style>
+  <!-- CDN of Bootstrap integration / must be before other style sheets -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- your own external style sheet -->
+	<link rel="stylesheet" type="text/css" href="su.style.css">
+
 </head>
-<!-- <body style="background-color: black"> -->
 <body>
-	<!-- below is how to do an in-line style via h1 -->
-	<h1 style="color: red;">The Console Wars</h1>
-	<h2>HTML-5</h2>
-		<p>learning basic tags</p>
-    	<p>~ < html, head, title, body, h1-h6, p, strong & em ></p><br>
-
-    <h2>LISTS</h2>
-    <h3>Unordered Lists</h3><!-- lists with dots -->
-    	<ul>
-    		<li>Nintendo</li> <!--<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/451aad43-72b4-4961-9bfb-48479da16f1f/d5zrpg6-0a1cbd38-802c-4f91-8cd7-ac05feaaecd3.png/v1/fill/w_458,h_258,q_80,strp/nes_logo__what_if___by_levelinfinitum_d5zrpg6-fullview.jpg" width="250px" height="150px">-->
-
-    		<li>Playstation</li> <!--<img src="https://i.pinimg.com/originals/5d/d7/a0/5dd7a0033d3812e45c674e7d4d59735e.png" width="250px" height="250px">-->
-
-    		<li>Xbox</li> <!--<img src="https://i.pinimg.com/originals/5d/d7/a0/5dd7a0033d3812e45c674e7d4d59735e.png">-->
-    	</ul>
-
-    <h3>Ordered Lists</h3> <!-- numbered lists -->
-    	<ol>
-    		<li>Super Mario Bros.</li>
-    		<li>The Legend of Zelda</li>
-    		<li>Donkey Kong</li>
-    	</ol>
-    <h2>IMAGES</h2>
-    	<!-- img tags are self-closing tags-->
-    	<img src="https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png" alt="picture of the first mario bros game">
-
-    	<img src="https://static.wikia.nocookie.net/zelda_gamepedia_en/images/0/0c/TLoZ_NES_NA_Box.png/revision/latest/scale-to-width-down/250?cb=20170404023020" width="250px" height="360px" alt="picture of the first zelda game">
-
-    	<img src="https://static.wikia.nocookie.net/nes/images/9/9f/Donkey_Kong.JPG/revision/latest?cb=20080807232845" width="250px" height="360px" alt="picture of the first donkey kong game">
-
-    <h2>HYPERLINKS</h2>
-        <p>This is an example of a Hyperlink: <a href="nd.page1.html">Register</a></p>
-    	<p>It will link relative to where new.doc is located and take you to a new page inside that document/folder.</p>
-
-        <p>These Links open new tabs entirely:</p>
-        <!-- below are links to new tabs, use the target attribute and set it ="blank" to do so -->
-        <ul>
-    		<li><a href="https://lparchive.org/Final-Fantasy-II-(by-Mega64)/Update%2003/18-021.gif" target="_blank">RPG's</a></li>
-    		<li><a href="https://66.media.tumblr.com/76575608b1b6b1b639a81a8d63956d40/tumblr_mfpcef5sXl1rl04amo1_500.gif" target="_blank">Action/Adventure</a></li>
-			<li><a href="https://i.pinimg.com/originals/63/dd/d7/63ddd7f601b6c9961e83fc5f45bd67f5.gif" target="_blank">Platformer</a></li>
-		</ul>
-
-    <h2>CLASSES</h2>
-    	<!--add the property "class" inside your opening tag-->
-        <p>You can style sets of data like lists with the "class" property, seperating it from similair tags or elements.</p>
-    	<ul>
-    		<li class="genre">Role Playing Games/RPG's</li>
-    		<li class="genre">Action & Adventure</li>
-    		<li class="genre">Platformer</li>
-    	</ul>
-    <h2>SELECTORS</h2>
-    <section>
-    	<div id="div1">
-	    	<p>This section is utilizing the #id selector.</p>
-	    	<p>You can use unique id #selectors only once.</p>
-	    	<p>Use div tags in html for various selectors.</p>
-        </div>
-        <div id="div2">
-	    	<p>This section is utilizing the #id selector.</p>
-	    	<p>You can use unique id #selectors only once.</p>
-	    	<p>Use div tags in html for various selectors.</p>
-        </div>
-    </section>
-
-    <a href="bs.page3.html" target="_blank">Bootstrap Page-3 / </a>
-    <a href="bs.page4.html" target="_blank">Bootstrap Page-4 /</a>
-    <a href="bsg.page5.html">Bootstrap-Grid, Page-5</a>
+	<div class="container">
+	  <div class="row">	
+		<header class="text-center col-12">
+		  <h1 class="text-uppercase">The Game That Started it All!</h1><br>
+		</header>
+		<div class="buffer col-12"></div>
+		<!-- <hr><hr><hr> -->
+		<section class="text-center col-12">
+		<a href="https://mailchi.mp/2d8d690d04ec/the-gaming-historian"><button class="btn btn-primary big-blue">Find Out More</button></a>
+	  	</section>
+	  </div>
+	</div>
 </body>
 </html>
