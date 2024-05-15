@@ -1,0 +1,59 @@
+body, html {
+	width: 100%;
+	height: 100%;
+	font-family: 'Jersey 10', sans-serif;
+/* This is "Perfect Full-Page Background Image" CSS	*/
+/* Must have quotations around image file name	*/
+	background: url("https://mario.wiki.gallery/images/f/fc/SuperMarioBrosArtwork2.jpg") no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+/*  	https://mario.wiki.gallery/images/b/bf/SMB_-_NES_cover_art.png*/
+}
+
+h1	{
+	font-size: 2rem;
+	color: lightgoldenrodyellow;
+	-webkit-text-stroke-width: .5px;
+	-webkit-text-stroke-color: red;
+/*	this will give the same output*/
+/*	-webkit-text-stroke: .5px red;*/
+
+}
+/* this hr element is a snippit from Andrei's tutorial */
+/*hr {
+    margin: 20px auto;
+    color: #F05F44;
+    border: 3px solid #F05F44;
+    max-width: 65px;
+    opacity: 1;  
+}*/
+
+hr {
+	border-color: #F05F44;
+	border-width: 3px;
+	max-width: 25px;
+}
+
+.buffer {
+	height: 350px;
+}
+
+.btn {
+/*	font-weight: 200;*/
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+.btn-primary {
+	background-color: palevioletred;
+	border-color: palegoldenrod;
+	max-width: 250px;
+/*	box-shadow: ????;*/
+}
+.btn-primary:hover {
+	background-color: cadetblue;
+	border-color: greenyellow;
+	border-width: 3px;
+}
