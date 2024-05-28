@@ -20,7 +20,7 @@ h1	{
 /*	this will give the same output*/
 /*	-webkit-text-stroke: .5px red;*/
 }
-a {
+a, h1, .button {
 	text-decoration: none;
 }
 
