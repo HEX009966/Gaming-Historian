@@ -20,7 +20,7 @@ h1	{
 /*	this will give the same output*/
 /*	-webkit-text-stroke: .5px red;*/
 }
-a, h1, .button {
+a {
 	text-decoration: none;
 }
 
@@ -69,4 +69,8 @@ hr {
 	background-color: cadetblue;
 	border-color: greenyellow;
 	border-width: 3px;
+}
+
+h1, .button, .btn-primary {
+	text-decoration: none;
 }
