@@ -1,0 +1,45 @@
+body {
+	margin: auto 0; /*closes margin gaps on edge of page*/
+
+}
+
+/*NAV*/
+.main-nav {
+	display: flex;
+	list-style: none; /*remove bullet points*/
+	font-size: ;
+	margin: 0;
+}
+
+@media only screen and (max-width: 600px)
+/*as soon as screen is less than 600px, apply the above properties*/
+	.main-nav {
+		font-size: .5em;
+		padding: 0;
+	}
+
+
+.push {
+	margin-left: auto; /*leaves open margin to the left*/
+}
+
+li {
+	padding: 20px;
+}
+
+a {
+	color: #f5f5f6;
+	text-decoration: none;
+}
+
+/*COVER*/
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50vh;  /*vh =viewport height/use a percentage number*/
+}
+
+/*PROJECT GRID*/
+
